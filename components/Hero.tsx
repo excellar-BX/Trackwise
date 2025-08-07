@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='bg-gradient-to-b py-10 max-sm:px-3 from-white to-green-300 rounded-b-xl sm:rounded-b-3xl  bg-no-repeat bg-center bg-cover ' >
+    <div className='bg-gradient-to-b pt-10 max-sm:px-3 from-white to-green-300 rounded-b-xl sm:rounded-b-3xl  bg-no-repeat bg-center bg-cover ' >
       <div className=' bg-green-300/30 text-green-600 px-5 py-2 flex gap-1 justify-center w-fit mx-auto rounded-full items-center ' ><BiFolderPlus/>Organise with ease</div>
       <p className=' text-4xl sm:text-6xl font-semibold text-center my-2 ' >Simplify your workflow,</p>
       <p className=' text-4xl sm:text-6xl font-semibold text-center' >Maximize your productivity</p>
